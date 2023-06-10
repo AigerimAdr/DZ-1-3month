@@ -1,0 +1,36 @@
+/* HW 1 part 1  */
+
+.email_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.inner_email_block {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/* HW 1 part 2  */
+.move_block {
+    background: black;
+    padding: 100px 0;
+}
+
+.parent_block {
+    height: 100px;
+    width: 100%;
+    border: 2px solid orange;
+    position: relative;
+}
+
+.child_block {
+    position: absolute;
+    width: 99px;
+    height: 96px;
+    background: red;
+    left: 10px;
+}
